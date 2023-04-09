@@ -1,9 +1,12 @@
 package main
 
-import "github.com/mischavandenburg/twitter-cli"
-
-var text string = "Hello World! Testing a tweet using my cli command.\n#go #coding #study #learning"
+import (
+	"github.com/mischavandenburg/twitter-cli"
+	"github.com/mischavandenburg/twitter-cli/internal/feed"
+)
 
 func main() {
-	twitter.Post(text)
+	r := feed.GetLatestPost()
+	twitter.Post(r)
+	// fmt.Println(r)
 }
