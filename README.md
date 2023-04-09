@@ -18,10 +18,12 @@ This is my first Go project and I'm learning as I progress towards the goals I h
 
 - [x] Set up project repo
 - [x] Make a post request to twitter with postman
-- [x] Do the same request using Go
-- [ ] Reading standard input
+- [x] Post to twitter using go
+- [x] Fetch RSS feed from blog
+- [x] Post latest blog post to twitter from feed
 - [ ] Handle error in GetLatestPost 
-- [ ] Add functionality to give tags when running the command
+- [ ] Reading standard input
 - [ ] "tweet latest" command to post latest blog post and add tags
 - [ ] "tweet new" command to post a tweet reading from stdin
 - [ ] Add a check for maximum characters
+- [ ] Add functionality to give tags when running the command
