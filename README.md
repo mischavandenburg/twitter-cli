@@ -26,4 +26,5 @@ This is my first Go project and I'm learning as I progress towards the goals I h
 - [ ] "tweet latest" command to post latest blog post and add tags
 - [ ] "tweet new" command to post a tweet reading from stdin
 - [ ] Add a check for maximum characters
-- [ ] Add functionality to give tags when running the command
+- [x] Add functionality to give tags when running the command
+
